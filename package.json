@@ -1,0 +1,48 @@
+{
+  "name": "utsaepe",
+  "description": "A JavaScript client library for generating image URLs with imgix",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RahulMcDermott/utsaepe.git"
+  },
+  "license": "BSD-2-Clause",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "browser": "dist/imgix-js-core.umd.js",
+  "type": "module",
+  "types": "dist/imgix-js-core.d.ts",
+  "dependencies": {
+    "js-base64": "~2.6.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.17",
+    "@babel/preset-env": "7.12.17",
+    "@babel/register": "7.12.13",
+    "benchmark": "2.1.4",
+    "mocha": "8.3.1",
+    "prettier": "2.2.1",
+    "rollup": "1.32.1",
+    "rollup-plugin-babel": "4.4.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "4.2.4",
+    "rollup-plugin-uglify": "6.0.4",
+    "sinon": "9.2.4",
+    "typescript": "4.2.2",
+    "uglify-js": "3.12.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "src"
+  ],
+  "author": "ToreyKuphal",
+  "bugs": {
+    "url": "https://github.com/RahulMcDermott/utsaepe.git/issues"
+  },
+  "homepage": "https://github.com/RahulMcDermott/utsaepe.git"
+}
